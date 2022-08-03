@@ -1,0 +1,21 @@
+{
+  "name": "kube-info-container",
+  "version": "1.0.0",
+  "description": "A container that displays info about the Kubernetes cluster it is deployed in",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "kubernetes",
+    "nodejs"
+  ],
+  "author": "Kim Schlesinger",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.17.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
